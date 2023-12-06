@@ -1,0 +1,61 @@
+.first {
+    display: flex;
+    font-family: 'WorkSans';
+    font-size: 0.7rem;
+}
+/*REMEMBER! - We have to add the divs width because that affect the width of the container too.*/
+.firstmobile {
+    display: flex;
+    font-family: 'WorkSans';
+    font-size: 0.6rem;
+    text-align: left;
+    width: 260px;
+    align-items: center;
+}
+
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../src/WorkSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('../src/WorkSans-Bold.ttf') format('truetype');
+  }
+  
+
+
+
+.iconplus {
+    margin-left: 20px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 20px;
+    /* Add your desired properties, e.g., color, font-size, etc. */
+}
+
+.iconplus3 {
+    margin-left: 20px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 20px;
+    /* Add your desired properties, e.g., color, font-size, etc. */
+}
+
+.iconplusmobile {
+    margin-left: 40px;
+    cursor: pointer;
+    /* Add your desired properties, e.g., color, font-size, etc. */
+}
+.iconminusmobile {
+    margin-left: 40px;
+    cursor: pointer;
+    /* Add your desired properties, e.g., color, font-size, etc. */
+}
+
+
+
+
